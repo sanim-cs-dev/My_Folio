@@ -1,0 +1,990 @@
+/* //// common css starts ////  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.conteinar{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.align_item{
+    align-items: center;
+}
+
+.text_align{
+    text-align: center;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.button{
+    padding: 20px 44px;
+    background-color: #cfc91d;
+    color: #0b1016;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.heading h5{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7e8287;
+    line-height: 41px;
+    padding-top: 10px;
+}
+
+.card{
+    width: 25%;
+    
+}
+
+.card h3{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 30px 0px;
+
+}
+
+.card p{
+    font-size: 11px;
+    color: #7e8287;
+    line-height: 21px;
+    
+}
+
+.btn{
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+/* //// common css ends ////  */
+
+
+
+
+/* ///// navber start ///// */
+
+
+nav{
+    background-color: #02918c;
+
+}
+
+nav .row{
+    justify-content: space-between;
+
+}
+
+nav #logo{
+
+    
+}
+
+
+
+nav #menu{
+
+    text-align: right;
+    
+}
+
+nav #menu ul li{
+    display: inline-block;
+    
+
+}
+
+nav #menu a{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 25px 25px;
+    display: block;
+}
+
+
+/* ///// navber ends ///// */
+
+
+
+
+
+
+/* banner 1 starts */
+
+#banner{
+    background-image: url(../images/banner_1.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#banner .row{
+    height: 728px;
+   
+}
+
+.banner_body{
+    width: 100%;
+    text-align: center;
+}
+
+.banner_body h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner_body h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+.banner_body p{
+    font-size: 18px;
+
+}
+
+.banner_body img{
+    padding: 50px 0;
+}
+
+
+/* banner 1 ends */
+
+
+
+
+
+
+/* about start */
+
+#about{
+    padding-top: 105px;
+    padding-bottom: 95px;
+}
+
+
+#about .heading p{
+    padding: 0 135px 85px;
+    
+}
+
+
+#about .heading strong{
+    font-size: 23px;
+}
+
+#about .card{
+    padding: 35px 60px 55px;
+    border-right: 1px solid #d9dbdb;
+    
+}
+
+#about .card:last-child{
+    border-right: none;
+}
+
+
+
+    
+
+/* about ends */
+
+
+
+
+/* service starts */
+
+#service{
+    background-image: url(../images/banner_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#service .heading{
+    width: 50%;
+    padding-bottom: 54px;
+    
+}
+
+#service .heading h5{
+    padding-top: 90px;
+}
+
+#service .heading p{
+    padding-right: 97px;
+    
+}
+
+#service .service_card{
+    width: 50%;
+    padding-bottom: 35px;
+}
+
+#service .card{
+    width: 50%;
+    margin-bottom: 50px;
+
+}
+
+#service .card p{
+    padding-right: 125px;
+}
+
+
+/* service ends */
+
+
+
+
+
+
+
+/* my work stars */
+
+#my_work .heading{
+    padding: 100px 300px ;
+}
+
+
+#my_work .post{
+    width: 25%;
+    position: relative;
+}
+
+#my_work .post img{
+    width: 100%;
+    display: block;
+    
+}
+
+#my_work .overlay{
+    background-color: rgba(2, 145, 139, 0.85);
+    color: #ffffff;
+    position: absolute;
+    inset: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px;
+    transform: scale(0);
+    transition: 0.5s;
+    
+
+}
+
+
+#my_work .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+#my_work .overlay p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+#my_work .post:hover .overlay{
+    transform: scale(1);
+    cursor: pointer;
+    
+}
+
+
+/* my work ends */
+
+
+/* contact start */
+
+#contact .heading{
+    padding-top: 100px;
+    
+    padding-bottom: 70px;
+}
+
+#contact .heading p{
+    padding: 0 235px;
+}
+
+#contact .form{
+    background-color: #0a0a0b;
+}
+
+#contact .form input{
+    width: 100%;
+    background-color: #0a0a0b;
+    color: #616568;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #616568;
+    outline: 0;   
+
+}
+
+#contact .form input:active{
+    border-bottom: 1px solid white;
+    
+}
+
+
+
+#contact .form .name{
+    width: 70%;
+}
+
+#contact .form .button{
+    margin: 67px;
+}
+
+/* contact ends */
+
+
+
+footer p{
+    padding: 35px 0;
+    text-align: center;
+    background-color: #000000;
+    color: #7e8287;
+    font-size: 12px;
+}
+
+
+
+/* responsive  */
+
+
+
+
+@media (min-width: 1400px) {
+
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.99px){
+
+}
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px){
+   
+    /* nav, common and banner responsive  */
+
+    .conteinar{
+        width: 950px;
+    }
+
+    #banner{
+        height: 675px;
+    }
+
+    nav #menu a{
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 23px 23px;
+        display: inline-block;
+    }
+
+    #banner h4{
+        font-size: 27px;
+    }
+
+    #banner h1{
+        font-size: 62px;
+        letter-spacing: 27px;
+    }
+
+    .banner_body img{
+        padding: 47px;
+    }
+
+    .banner_body p{
+        font-size: 17px;
+    }
+
+
+    .heading h5{
+        font-size: 40px;
+    }
+
+    .button {
+        padding: 18px 40px;
+    }
+
+
+
+    /* about responsive  */
+
+
+    #about .heading p{
+        font-size: 15px;
+        padding: 0 60px 55px;
+        
+    }
+
+    #about strong{
+        font-size: 21.5px;
+    }
+
+    #about .card{
+        padding: 32px 30px 50px;
+    }
+    
+    #about {
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+
+    #service {
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    #service .card p{
+        padding-right: 60px;
+    }
+
+    #service .heading h5 {
+        padding-top: 75px;
+    }
+    
+    #service .service_card {
+        padding-bottom: 30px;
+    }
+
+
+    #my_work .heading{
+        padding: 80px 180px;
+    }
+
+    #my
+
+    #contact .heading{
+        padding: 80px 0 60px;
+    }
+
+    #contact .heading p{
+        padding: 0 140px;
+    }
+
+    
+    #my_work .overlay{
+    inset: 20px;
+    padding: 10px 20px;
+
+
+}
+
+    #my_work .overlay h4{
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
+    #my_work .overlay p{
+
+        line-height: 22px;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px){
+
+
+    .conteinar{
+        width: 720px;
+    }
+
+    #banner{
+        height: 650px;
+    }
+
+    nav #menu a{
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 22px 14px;
+        display: inline-block;
+    }
+
+    #banner h4{
+        font-size: 25px;
+    }
+
+    #banner h1{
+        font-size: 58px;
+        letter-spacing: 25px;
+    }
+
+    .banner_body img{
+        padding: 44px;
+    }
+
+    .banner_body p{
+        font-size: 16.5px;
+    }
+
+
+    .heading h5{
+        font-size: 38px;
+    }
+
+    .button {
+        padding: 16.5px 38px;
+    }
+
+
+
+    /* about responsive  */
+
+    #about .heading p{
+        font-size: 15px;
+        padding: 0 0px 40px;
+        
+    }
+
+    #about strong{
+        font-size: 20px;
+    }
+
+    #about .card{
+        padding: 30px 15px 30px;
+    }
+    
+    #about {
+        padding-top: 80px;
+        padding-bottom: 75px;
+    }
+
+    #service {
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    #service .heading h5 {
+        padding-top: 65px;
+    }
+    
+    #service .service_card {
+        padding-bottom: 20px;
+    }
+
+    #service .card{
+        margin-bottom: 45px;
+    
+    }
+    
+    #service .card p{
+        padding-right: 25px;
+    }
+
+
+    #my_work .heading{
+        padding: 60px 120px;
+    }
+
+    #contact .heading{
+        padding: 65px 0 60px;
+    }
+    #contact .heading p{
+        padding: 0 60px;
+    }
+
+    #my_work .overlay{
+        inset: 25px;
+        padding: 0 20px;
+    
+    
+    }
+
+        
+    #my_work .overlay p{
+    
+        line-height: 22px;
+    }
+
+    #my_work .post{
+        width: 50%;
+    }
+
+}
+    
+    
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.99px){
+
+    .conteinar{
+        width: 530px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav img{
+        padding: 15px 0;
+    }
+
+    #banner{
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav #menu a{
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 22px 14px;
+        display: inline-block;
+    }
+
+    #banner h4{
+        font-size: 22px;
+    }
+
+    #banner h1{
+        font-size: 50px;
+        letter-spacing: 22px;
+    }
+
+    .banner_body img{
+        padding: 40px;
+    }
+
+    .banner_body p{
+        font-size: 16px;
+    }
+
+
+    .heading h5{
+        font-size: 36px;
+    }
+
+    .button {
+        padding: 14px 28px;
+    }
+
+
+
+    /* about responsive  */
+
+    #about .heading p{
+        font-size: 15px;
+        padding: 0 0px 40px;
+        
+    }
+
+    #about .heading strong{
+        font-size: 17px;
+    }
+
+    #about .card{
+        width: 50%;
+        padding: 30px 15px 30px ;
+    }
+
+    #about .card:nth-child(2){
+        border-right: none;
+    
+    }
+    
+    #about {
+        padding-top: 40px;
+        padding-bottom: 75px;
+    }
+
+    #service {
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    #service .heading p{
+        padding-right: 0px;
+    }
+
+    #service .card{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+
+    #service .heading h5 {
+        padding-top: 30px;
+    }
+    
+    #service .service_card {
+        padding-bottom: 20px;
+    }
+
+    
+    #service .card p{
+        padding-right: 75px;
+    }
+
+
+    #my_work .heading{
+        padding: 30px 20px;
+    }
+
+    #contact .heading{
+        padding: 30px 0 40px;
+    }
+    #contact .heading p{
+        padding: 0 0px;
+    }
+
+    #my_work .overlay{
+        inset: 25px;
+        padding: 0 20px;
+    
+    
+    }
+
+        
+    #my_work .overlay p{
+    
+        line-height: 22px;
+    }
+
+    #my_work .post{
+        width: 50%;
+    }
+
+    #contact .form input{
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    
+
+    #contact .form .button{
+        margin: 40px;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width: 576.99px){
+    .conteinar{
+        width: 300px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav img{
+        width: 80px;
+        padding: 10px 0;
+    }
+
+    #banner{
+        height: 520px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav #menu a{
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 22px 14px;
+        display: inline-block;
+    }
+
+    #banner h4{
+        font-size: 16px;
+    }
+
+    #banner h1{
+        font-size: 30px;
+        letter-spacing: 6px;
+    }
+
+    .banner_body img{
+        padding: 30px;
+    }
+
+    .banner_body p{
+        font-size: 12px;
+    }
+
+
+    .heading h5{
+        font-size: 25px;
+    }
+
+    .button {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+
+
+    /* about responsive  */
+
+    #about .heading p{
+        font-size: 13px;
+        padding: 0 0px 15px;
+        
+    }
+
+    #about .heading strong{
+        font-size: 15px;
+    }
+
+    #about .card{
+        width: 100%;
+        padding: 20px 30px 20px ;
+        border-right: none;
+    }
+
+    #about {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    #service {
+        background-size: cover;
+        background-position: center;
+    
+    }
+
+    #service .heading {
+        width: 100%;
+        text-align: center;
+    }
+    #service .heading p{
+        padding-right: 0px;
+        
+    }
+
+    #service .service_card{
+        width: 100%;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    #service .card{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+
+    #service .heading h5 {
+        padding-top: 30px;
+    }
+    
+    #service .service_card {
+        padding-bottom: 10px;
+    }
+
+    
+    #service .card p{
+        padding-right: 0px;
+    }
+
+
+    #my_work .heading{
+        padding: 10px 0px;
+    }
+
+    #contact .heading{
+        padding: 30px 0 40px;
+    }
+    #contact .heading p{
+        padding: 0 0px;
+    }
+
+    #my_work .overlay{
+        inset: 25px;
+        padding: 0 20px;
+    
+    
+    }
+
+        
+    #my_work .overlay p{
+    
+        line-height: 22px;
+    }
+
+    #my_work .post{
+        width: 100%;
+    }
+
+    #contact .form input{
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    
+
+    #contact .form .button{
+        margin: 40px;
+    }
+}
